@@ -1,0 +1,42 @@
+CC=arm-apple-darwin-gcc
+CXX=/usr/local/bin/arm-apple-darwin-g++
+
+LD=$(CC)
+LDFLAGS = -framework CoreFoundation \
+          -framework Foundation \
+          -framework UIKit \
+          -framework LayerKit \
+          -framework CoreGraphics \
+          -framework GraphicsServices \
+          -framework CoreSurface \
+          -lobjc
+
+IP=192.168.2.102
+SRC=src/
+IMG=img/
+
+all:    Sudoku bundle
+
+Sudoku:  main.o Sudoku.o ZBBoardView.o ZBCell.o SudokuController.o
+	$(LD) $(LDFLAGS) -o $@ $^
+
+%.o:    $(SRC)%.m
+	$(CC) -Wall -c $(CFLAGS) $(CPPFLAGS) $< -o $@
+
+bundle:
+	mkdir -p Sudoku.app
+	cp Sudoku Sudoku.app
+	cp Info.plist Sudoku.app
+	cp $(IMG)icon.png Sudoku.app
+	cp $(IMG)Default.png Sudoku.app
+	cp -r puzzles Sudoku.app
+
+deploy:
+	scp -rp Sudoku.app root@$(IP):/Applications
+
+zip:
+	zip -9yr Sudoku.zip Sudoku.app
+
+clean:
+	rm -f *.o Sudoku Sudoku.zip
+	rm -Rf Sudoku.app
