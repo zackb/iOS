@@ -26,18 +26,22 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "SudokuController.h"
+#import "ZBNumberChooser.h"
 #import "ZBCell.h"
 
 @interface ZBBoardView : UIView 
 {
     SudokuController *controller;
     ZBCell *_previousHit;
+    ZBNumberChooser *_numberChooser;
     CGRect chooserRect;
     bool showChooser;
 }
 
 - (CGRect)bounds;
 - (void)renderCell:(ZBCell *)cell;
+
+- (void)selectNumber: (char)number;
 
 - (BOOL)isSolved;
 - (void)newGame;

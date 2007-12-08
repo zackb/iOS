@@ -88,44 +88,72 @@
 
     if (showChooser)
     {
-        ZBNumberChooser *n = [[ZBNumberChooser alloc] initWithFrame: chooserRect];
-        [n drawRect: chooserRect];
+        if (_numberChooser)
+        {
+            [_numberChooser release];
+            _numberChooser = nil;
+        }
+        _numberChooser = [[ZBNumberChooser alloc] initWithFrame: chooserRect]; 
+
+        [self addSubview: _numberChooser];
+    }
+    else
+    {
+        if (_numberChooser != nil)
+        {
+            [_numberChooser removeFromSuperview];
+            _numberChooser = nil;
+        }
     }
 }
 
-- (void)mouseDown:(GSEvent *)event {
+- (void)mouseDown:(GSEvent *)event 
+{
     CGPoint point = GSEventGetLocationInWindow(event);
     ZBCell *hit = [controller cellAtPoint: point];
+    CGRect _rect;
+    char newChar;
 
-    if ( hit )  {
-        [hit hit];
-        showChooser = YES;
-        chooserRect = CGRectMake(point.x, point.y, 30.0, 100.0);
-        [self setNeedsDisplayInRect: [hit rect]];
-        [self setNeedsDisplayInRect: chooserRect];
-        _previousHit = hit;
+    _previousHit = nil;
+
+    if ( hit)
+    {
+        if ([hit editable])
+        {
+ //           [hit hit];
+            _rect = [hit rect];
+            _rect.origin.x = point.x;
+            _rect.origin.y = point.y;
+            chooserRect = CGRectMake(_rect.origin.x - 75.0, _rect.origin.y - 75.0, 150.0, 150.0);
+            if (showChooser)
+            {
+                showChooser = NO;
+            }
+            else
+            {
+                showChooser = YES;
+            }
+            _previousHit = hit;
+        }
+        else if (showChooser)
+        {
+            showChooser = NO;
+        }
     }
+    else if (showChooser)
+    {
+        showChooser = NO;
+    }
+
+    [self setNeedsDisplayInRect: [self frame]];
 }
 
-- (void)mouseDragged:(GSEvent *)event   {
-    ZBCell *hit = [controller cellAtPoint: GSEventGetLocationInWindow(event)];
-    if ( _previousHit != hit )  {
-        [self mouseDown: event];
-    }
-    _previousHit = hit;
-
-}
-
-- (void)renderCell:(ZBCell *)cell    {
+- (void)renderCell:(ZBCell *)cell    
+{
     CGContextRef ctx = UICurrentContext();
     float white[4] = { 1.0, 1.0, 1.0, 1.0 };
     float black[4] = {0, 0, 0, 1};
     float gray[4] = {0, 0, 0, 0.5};
-/*
-    float red[4] = {1, 0, 0, 1};
-    float green[4] = {0, 1, 0, 1};
-    float blue[4] = {0, 0, 1, 1};
-*/
 
     CGRect rect = [cell rect];
     int number = [cell number];
@@ -144,16 +172,8 @@
             else    {
                 CGContextSetFillColor(ctx, gray);
             }
+
             CGContextSaveGState(ctx);
-/*
-            CGContextTranslateCTM(ctx, 320, 0);
-            CGContextScaleCTM(ctx, -1, 1);
-            CGContextRotateCTM(ctx, 3.14);
-            CGAffineTransform t = CGAffineTransformRotate(CGAffineTransformIdentity, 3.14159265);
-            CGAffineTransform tt = CGAffineTransformTranslate(t, 10, 10);
-            t.a = 0; t.b = 1; t.c = 1; t.d = 1; t.tx = 1; t.ty = 1;
-            t = CGAffineTransformInvert(t);
-*/
             CGContextSelectFont(ctx, "Arial", rect.size.height, kCGEncodingMacRoman);
             CGAffineTransform t = CGAffineTransformMake(1, 0, 0, -1, 0, rect.size.height/30);
             CGContextSetTextMatrix(ctx, t);
@@ -166,6 +186,17 @@
             break;
     }
 
+}
+
+- (void)selectNumber: (char)num
+{
+    showChooser = NO;
+
+    if (_previousHit != nil)
+    {
+        [_previousHit setNumber: atoi(&num)];
+    }
+    [self setNeedsDisplay];
 }
 
 - (BOOL)isSolved

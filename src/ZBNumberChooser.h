@@ -28,8 +28,10 @@
 
 @interface ZBNumberChooser : UIView 
 {
+    char value;
 }
 
 - (CGRect)bounds;
+- (void)renderNumber:(char)number inRect:(CGRect)rect;
 
 @end

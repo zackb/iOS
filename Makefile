@@ -11,7 +11,7 @@ LDFLAGS = -framework CoreFoundation \
           -framework CoreSurface \
           -lobjc
 
-IP=192.168.2.103
+IP=192.168.2.101
 SRC=src/
 IMG=img/
 
