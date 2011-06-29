@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	1411FF5C0D0E3E80001C2061 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A910D0D1C6D000121DB /* ZBOthelloController.m */;
+		name = "ZBOthelloController.m: 51";
+		rLen = 0;
+		rLoc = 2277;
+		rType = 0;
+		vrLen = 736;
+		vrLoc = 2154;
+	};
+	1411FF5D0D0E3E80001C2061 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A910D0D1C6D000121DB /* ZBOthelloController.m */;
+		name = "ZBOthelloController.m: 89";
+		rLen = 55;
+		rLoc = 2979;
+		rType = 0;
+		vrLen = 1621;
+		vrLoc = 3549;
+	};
+	1446B0F90D0D24A900CB8DCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A900D0D1C6D000121DB /* ZBOthelloCell.h */;
+		name = "ZBOthelloCell.h: 35";
+		rLen = 17;
+		rLoc = 1942;
+		rType = 0;
+		vrLen = 1960;
+		vrLoc = 0;
+	};
+	1446B4120D0E33CB009E42D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A940D0D1C6D000121DB /* ZBOthelloController.h */;
+		name = "ZBOthelloController.h: 26";
+		rLen = 0;
+		rLoc = 1836;
+		rType = 0;
+		vrLen = 967;
+		vrLoc = 1317;
+	};
+	145D518B0D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Othello_Prefix.pch */;
+		name = "Othello_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	145D518C0D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8ABE0D0D1CE1000121DB /* main.m */;
+		name = "main.m: 23";
+		rLen = 0;
+		rLoc = 1785;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 0;
+	};
+	145D51920D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A920D0D1C6D000121DB /* ZBOthelloBoard.m */;
+		name = "ZBOthelloBoard.m: 23";
+		rLen = 0;
+		rLoc = 1785;
+		rType = 0;
+		vrLen = 1981;
+		vrLoc = 0;
+	};
+	145D51940D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8ABE0D0D1CE1000121DB /* main.m */;
+		name = "main.m: 24";
+		rLen = 0;
+		rLoc = 1786;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 0;
+	};
+	145D51950D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A950D0D1C6D000121DB /* ZBOthelloView.m */;
+		name = "ZBOthelloView.m: 7";
+		rLen = 0;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 1942;
+		vrLoc = 0;
+	};
+	145D51960D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A970D0D1C6D000121DB /* ZBOthelloView.h */;
+		name = "ZBOthelloView.h: 1";
+		rLen = 1785;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1956;
+		vrLoc = 0;
+	};
+	145D51980D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Othello_Prefix.pch */;
+		name = "Othello_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	145D519C0D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A940D0D1C6D000121DB /* ZBOthelloController.h */;
+		name = "ZBOthelloController.h: 23";
+		rLen = 0;
+		rLoc = 1785;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 1239;
+	};
+	145D519D0D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A960D0D1C6D000121DB /* ZBOthelloCell.m */;
+		name = "ZBOthelloCell.m: 23";
+		rLen = 0;
+		rLoc = 1785;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 1473;
+	};
+	145D519E0D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A930D0D1C6D000121DB /* ZBOthelloBoard.h */;
+		name = "ZBOthelloBoard.h: 23";
+		rLen = 0;
+		rLoc = 1785;
+		rType = 0;
+		vrLen = 1944;
+		vrLoc = 0;
+	};
+	145D519F0D0D220A003D1897 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A920D0D1C6D000121DB /* ZBOthelloBoard.m */;
+		name = "ZBOthelloBoard.m: 23";
+		rLen = 0;
+		rLoc = 1785;
+		rType = 0;
+		vrLen = 1981;
+		vrLoc = 0;
+	};
+	1465D7EB0D0B759800A277EC /* Othello */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Othello;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1465D7FE0D0B75A100A277EC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	1465D7FF0D0B75A100A277EC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	146B8A900D0D1C6D000121DB /* ZBOthelloCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {707, 896}}";
+			sepNavSelRange = "{1942, 17}";
+			sepNavVisRange = "{0, 1960}";
+		};
+	};
+	146B8A910D0D1C6D000121DB /* ZBOthelloController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 3640}}";
+			sepNavSelRange = "{2979, 55}";
+			sepNavVisRange = "{3549, 1621}";
+		};
+	};
+	146B8A920D0D1C6D000121DB /* ZBOthelloBoard.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {707, 1330}}";
+			sepNavSelRange = "{1785, 0}";
+			sepNavVisRange = "{0, 1981}";
+		};
+	};
+	146B8A930D0D1C6D000121DB /* ZBOthelloBoard.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 602}}";
+			sepNavSelRange = "{1785, 0}";
+			sepNavVisRange = "{0, 1996}";
+		};
+	};
+	146B8A940D0D1C6D000121DB /* ZBOthelloController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 756}}";
+			sepNavSelRange = "{1836, 0}";
+			sepNavVisRange = "{1317, 967}";
+		};
+	};
+	146B8A950D0D1C6D000121DB /* ZBOthelloView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 2702}}";
+			sepNavSelRange = "{4282, 0}";
+			sepNavVisRange = "{3728, 1221}";
+		};
+	};
+	146B8A960D0D1C6D000121DB /* ZBOthelloCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 1652}}";
+			sepNavSelRange = "{1785, 0}";
+			sepNavVisRange = "{0, 1976}";
+		};
+	};
+	146B8A970D0D1C6D000121DB /* ZBOthelloView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 714}}";
+			sepNavSelRange = "{2069, 46}";
+			sepNavVisRange = "{1005, 1210}";
+		};
+	};
+	146B8AAE0D0D1CD2000121DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A900D0D1C6D000121DB /* ZBOthelloCell.h */;
+		name = "ZBOthelloCell.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 565;
+		vrLoc = 0;
+	};
+	146B8ABE0D0D1CE1000121DB /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {707, 471}}";
+			sepNavSelRange = "{1785, 0}";
+			sepNavVisRange = "{0, 1908}";
+		};
+	};
+	146B8AC50D0D1D01000121DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A910D0D1C6D000121DB /* ZBOthelloController.m */;
+		name = "ZBOthelloController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 0;
+	};
+	149751DD0D0C6EC70075508A /* ZBOthelloView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ZBOthelloView.m;
+		path = /Users/zack/Desktop/Code/Othello/ZBOthelloView.m;
+		sourceTree = "<absolute>";
+	};
+	149751E00D0C6F6C0075508A /* ZBOthelloController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ZBOthelloController.m;
+		path = /Users/zack/Desktop/Code/Othello/ZBOthelloController.m;
+		sourceTree = "<absolute>";
+	};
+	149751EA0D0C6FA10075508A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 149751EB0D0C6FA10075508A;
+	};
+	149751EB0D0C6FA10075508A = {
+		isa = PBXFileReference;
+		lastKnownFileType = folder;
+		sourceTree = "<group>";
+	};
+	149752010D0C72710075508A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 149752020D0C72710075508A /* CardView.m */;
+		name = "CardView.m: 156";
+		rLen = 287;
+		rLoc = 5669;
+		rType = 0;
+		vrLen = 1872;
+		vrLoc = 4459;
+	};
+	149752020D0C72710075508A /* CardView.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CardView.m;
+		path = "/Users/zack/Desktop/Code/Projects/QuickCRC X/CardView.m";
+		sourceTree = "<absolute>";
+	};
+	149752060D0C72710075508A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 149752070D0C72710075508A /* CardView.m */;
+		name = "CardView.m: 156";
+		rLen = 287;
+		rLoc = 5669;
+		rType = 0;
+		vrLen = 1872;
+		vrLoc = 4459;
+	};
+	149752070D0C72710075508A /* CardView.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CardView.m;
+		path = "/Users/zack/Desktop/Code/Projects/QuickCRC X/CardView.m";
+		sourceTree = "<absolute>";
+	};
+	14A7D49F0D0CF770000DEEC9 /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGGeometry.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/../Frameworks/CoreGraphics.framework/Headers/CGGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	14A7D4A40D0CF770000DEEC9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14A7D4A50D0CF770000DEEC9 /* CGGeometry.h */;
+		name = "CGGeometry.h: 249";
+		rLen = 0;
+		rLoc = 7212;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 6394;
+	};
+	14A7D4A50D0CF770000DEEC9 /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGGeometry.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/../Frameworks/CoreGraphics.framework/Headers/CGGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	14A7D4CD0D0CFAB2000DEEC9 /* ZBOthelloView.m:27 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 149751DD0D0C6EC70075508A /* ZBOthelloView.m */;
+		functionName = "-initWithFrame:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 27;
+		location = Othello;
+		modificationTime = 218962494.992786;
+		state = 2;
+	};
+	14A7D4CF0D0CFB04000DEEC9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14A7D49F0D0CF770000DEEC9 /* CGGeometry.h */;
+		name = "CGGeometry.h: 249";
+		rLen = 0;
+		rLoc = 7212;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 6394;
+	};
+	14B8B0AB0D0D185400D7514B /* ZBOthelloController.m:155 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 149751E00D0C6F6C0075508A /* ZBOthelloController.m */;
+		functionName = "-othelloAI";
+		hitCount = 3;
+		ignoreCount = 0;
+		lineNumber = 155;
+		location = Othello;
+		modificationTime = 218962564.866105;
+		state = 1;
+	};
+	14BD902D0D0E23110083A593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A950D0D1C6D000121DB /* ZBOthelloView.m */;
+		name = "ZBOthelloView.m: 116";
+		rLen = 0;
+		rLoc = 4282;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 3728;
+	};
+	14BD90590D0E24190083A593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A970D0D1C6D000121DB /* ZBOthelloView.h */;
+		name = "ZBOthelloView.h: 41";
+		rLen = 46;
+		rLoc = 2069;
+		rType = 0;
+		vrLen = 1210;
+		vrLoc = 1005;
+	};
+	14E11E0A0D0D26520001E44C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A930D0D1C6D000121DB /* ZBOthelloBoard.h */;
+		name = "ZBOthelloBoard.h: 23";
+		rLen = 0;
+		rLoc = 1785;
+		rType = 0;
+		vrLen = 1996;
+		vrLoc = 0;
+	};
+	14E11E1F0D0D273B0001E44C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 146B8A960D0D1C6D000121DB /* ZBOthelloCell.m */;
+		name = "ZBOthelloCell.m: 23";
+		rLen = 0;
+		rLoc = 1785;
+		rType = 0;
+		vrLen = 1976;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 1465D7EB0D0B759800A277EC /* Othello */;
+		activeTarget = 8D1107260486CEB800E47090 /* Othello */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Othello */,
+		);
+		breakpoints = (
+			14A7D4CD0D0CFAB2000DEEC9 /* ZBOthelloView.m:27 */,
+			14B8B0AB0D0D185400D7514B /* ZBOthelloController.m:155 */,
+		);
+		codeSenseManager = 1465D7FF0D0B75A100A277EC /* Code sense */;
+		executables = (
+			1465D7EB0D0B759800A277EC /* Othello */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					908,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 219037170;
+			PBXWorkspaceStateSaveDate = 219037170;
+		};
+		perUserProjectItems = {
+			1411FF5C0D0E3E80001C2061 /* PBXTextBookmark */ = 1411FF5C0D0E3E80001C2061 /* PBXTextBookmark */;
+			1411FF5D0D0E3E80001C2061 /* PBXTextBookmark */ = 1411FF5D0D0E3E80001C2061 /* PBXTextBookmark */;
+			1446B0F90D0D24A900CB8DCA /* PBXTextBookmark */ = 1446B0F90D0D24A900CB8DCA /* PBXTextBookmark */;
+			1446B4120D0E33CB009E42D4 /* PBXTextBookmark */ = 1446B4120D0E33CB009E42D4 /* PBXTextBookmark */;
+			145D518B0D0D220A003D1897 /* PBXTextBookmark */ = 145D518B0D0D220A003D1897 /* PBXTextBookmark */;
+			145D518C0D0D220A003D1897 /* PBXTextBookmark */ = 145D518C0D0D220A003D1897 /* PBXTextBookmark */;
+			145D51920D0D220A003D1897 /* PBXTextBookmark */ = 145D51920D0D220A003D1897 /* PBXTextBookmark */;
+			145D51940D0D220A003D1897 /* PBXTextBookmark */ = 145D51940D0D220A003D1897 /* PBXTextBookmark */;
+			145D51950D0D220A003D1897 /* PBXTextBookmark */ = 145D51950D0D220A003D1897 /* PBXTextBookmark */;
+			145D51960D0D220A003D1897 /* PBXTextBookmark */ = 145D51960D0D220A003D1897 /* PBXTextBookmark */;
+			145D51980D0D220A003D1897 /* PBXTextBookmark */ = 145D51980D0D220A003D1897 /* PBXTextBookmark */;
+			145D519C0D0D220A003D1897 /* PBXTextBookmark */ = 145D519C0D0D220A003D1897 /* PBXTextBookmark */;
+			145D519D0D0D220A003D1897 /* PBXTextBookmark */ = 145D519D0D0D220A003D1897 /* PBXTextBookmark */;
+			145D519E0D0D220A003D1897 /* PBXTextBookmark */ = 145D519E0D0D220A003D1897 /* PBXTextBookmark */;
+			145D519F0D0D220A003D1897 /* PBXTextBookmark */ = 145D519F0D0D220A003D1897 /* PBXTextBookmark */;
+			146B8AAE0D0D1CD2000121DB /* PBXTextBookmark */ = 146B8AAE0D0D1CD2000121DB /* PBXTextBookmark */;
+			146B8AC50D0D1D01000121DB /* PBXTextBookmark */ = 146B8AC50D0D1D01000121DB /* PBXTextBookmark */;
+			149751EA0D0C6FA10075508A /* PBXBookmark */ = 149751EA0D0C6FA10075508A /* PBXBookmark */;
+			149752010D0C72710075508A /* PBXTextBookmark */ = 149752010D0C72710075508A /* PBXTextBookmark */;
+			149752060D0C72710075508A /* PBXTextBookmark */ = 149752060D0C72710075508A /* PBXTextBookmark */;
+			14A7D4A40D0CF770000DEEC9 /* PBXTextBookmark */ = 14A7D4A40D0CF770000DEEC9 /* PBXTextBookmark */;
+			14A7D4CF0D0CFB04000DEEC9 /* PBXTextBookmark */ = 14A7D4CF0D0CFB04000DEEC9 /* PBXTextBookmark */;
+			14BD902D0D0E23110083A593 /* PBXTextBookmark */ = 14BD902D0D0E23110083A593 /* PBXTextBookmark */;
+			14BD90590D0E24190083A593 /* PBXTextBookmark */ = 14BD90590D0E24190083A593 /* PBXTextBookmark */;
+			14E11E0A0D0D26520001E44C /* PBXTextBookmark */ = 14E11E0A0D0D26520001E44C /* PBXTextBookmark */;
+			14E11E1F0D0D273B0001E44C /* PBXTextBookmark */ = 14E11E1F0D0D273B0001E44C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1465D7FE0D0B75A100A277EC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Othello_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {707, 471}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 145}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Othello */ = {
+		activeExec = 0;
+		executables = (
+			1465D7EB0D0B759800A277EC /* Othello */,
+		);
+	};
+}

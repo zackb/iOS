@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146B8A980D0D1C6D000121DB /* ZBOthelloController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B8A910D0D1C6D000121DB /* ZBOthelloController.m */; };
+		146B8A990D0D1C6D000121DB /* ZBOthelloBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B8A920D0D1C6D000121DB /* ZBOthelloBoard.m */; };
+		146B8A9A0D0D1C6D000121DB /* ZBOthelloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B8A950D0D1C6D000121DB /* ZBOthelloView.m */; };
+		146B8A9B0D0D1C6D000121DB /* ZBOthelloCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B8A960D0D1C6D000121DB /* ZBOthelloCell.m */; };
+		146B8AA50D0D1C8B000121DB /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 146B8AA00D0D1C8B000121DB /* black.png */; };
+		146B8AA60D0D1C8B000121DB /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 146B8AA10D0D1C8B000121DB /* background.jpg */; };
+		146B8AA70D0D1C8B000121DB /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 146B8AA20D0D1C8B000121DB /* white.png */; };
+		146B8AA80D0D1C8B000121DB /* Computer.png in Resources */ = {isa = PBXBuildFile; fileRef = 146B8AA30D0D1C8B000121DB /* Computer.png */; };
+		146B8AA90D0D1C8B000121DB /* Mac.png in Resources */ = {isa = PBXBuildFile; fileRef = 146B8AA40D0D1C8B000121DB /* Mac.png */; };
+		146B8ABF0D0D1CE1000121DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B8ABE0D0D1CE1000121DB /* main.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		146B8A900D0D1C6D000121DB /* ZBOthelloCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBOthelloCell.h; path = src/ZBOthelloCell.h; sourceTree = "<group>"; };
+		146B8A910D0D1C6D000121DB /* ZBOthelloController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZBOthelloController.m; path = src/ZBOthelloController.m; sourceTree = "<group>"; };
+		146B8A920D0D1C6D000121DB /* ZBOthelloBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZBOthelloBoard.m; path = src/ZBOthelloBoard.m; sourceTree = "<group>"; };
+		146B8A930D0D1C6D000121DB /* ZBOthelloBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBOthelloBoard.h; path = src/ZBOthelloBoard.h; sourceTree = "<group>"; };
+		146B8A940D0D1C6D000121DB /* ZBOthelloController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBOthelloController.h; path = src/ZBOthelloController.h; sourceTree = "<group>"; };
+		146B8A950D0D1C6D000121DB /* ZBOthelloView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZBOthelloView.m; path = src/ZBOthelloView.m; sourceTree = "<group>"; };
+		146B8A960D0D1C6D000121DB /* ZBOthelloCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZBOthelloCell.m; path = src/ZBOthelloCell.m; sourceTree = "<group>"; };
+		146B8A970D0D1C6D000121DB /* ZBOthelloView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBOthelloView.h; path = src/ZBOthelloView.h; sourceTree = "<group>"; };
+		146B8AA00D0D1C8B000121DB /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = img/black.png; sourceTree = "<group>"; };
+		146B8AA10D0D1C8B000121DB /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = img/background.jpg; sourceTree = "<group>"; };
+		146B8AA20D0D1C8B000121DB /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white.png; path = img/white.png; sourceTree = "<group>"; };
+		146B8AA30D0D1C8B000121DB /* Computer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Computer.png; path = img/Computer.png; sourceTree = "<group>"; };
+		146B8AA40D0D1C8B000121DB /* Mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mac.png; path = img/Mac.png; sourceTree = "<group>"; };
+		146B8ABE0D0D1CE1000121DB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Othello_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Othello_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Othello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Othello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				149751E40D0C6F890075508A /* View */,
+				149751E50D0C6F930075508A /* Controller */,
+				14C77AB80D0C86310010CB58 /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		146B8A9C0D0D1C80000121DB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				146B8AA00D0D1C8B000121DB /* black.png */,
+				146B8AA10D0D1C8B000121DB /* background.jpg */,
+				146B8AA20D0D1C8B000121DB /* white.png */,
+				146B8AA30D0D1C8B000121DB /* Computer.png */,
+				146B8AA40D0D1C8B000121DB /* Mac.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		149751E40D0C6F890075508A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				146B8A970D0D1C6D000121DB /* ZBOthelloView.h */,
+				146B8A950D0D1C6D000121DB /* ZBOthelloView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		149751E50D0C6F930075508A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				146B8A940D0D1C6D000121DB /* ZBOthelloController.h */,
+				146B8A910D0D1C6D000121DB /* ZBOthelloController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		14C77AB80D0C86310010CB58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				146B8A930D0D1C6D000121DB /* ZBOthelloBoard.h */,
+				146B8A960D0D1C6D000121DB /* ZBOthelloCell.m */,
+				146B8A900D0D1C6D000121DB /* ZBOthelloCell.h */,
+				146B8A920D0D1C6D000121DB /* ZBOthelloBoard.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Othello.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Othello */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Othello;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				146B8ABE0D0D1CE1000121DB /* main.m */,
+				32CA4F630368D1EE00C91783 /* Othello_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				146B8A9C0D0D1C80000121DB /* img */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Othello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Othello" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Othello;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Othello;
+			productReference = 8D1107320486CEB800E47090 /* Othello.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Othello" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Othello */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Othello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				146B8AA50D0D1C8B000121DB /* black.png in Resources */,
+				146B8AA60D0D1C8B000121DB /* background.jpg in Resources */,
+				146B8AA70D0D1C8B000121DB /* white.png in Resources */,
+				146B8AA80D0D1C8B000121DB /* Computer.png in Resources */,
+				146B8AA90D0D1C8B000121DB /* Mac.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146B8A980D0D1C6D000121DB /* ZBOthelloController.m in Sources */,
+				146B8A990D0D1C6D000121DB /* ZBOthelloBoard.m in Sources */,
+				146B8A9A0D0D1C6D000121DB /* ZBOthelloView.m in Sources */,
+				146B8A9B0D0D1C6D000121DB /* ZBOthelloCell.m in Sources */,
+				146B8ABF0D0D1CE1000121DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Othello_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Othello;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Othello_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Othello;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Othello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Othello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
